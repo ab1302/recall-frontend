@@ -1,16 +1,9 @@
-# React + Vite
+# Recall
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I keep solving LeetCode problems and keep forgetting them a week later. Recall is my fix for that. It tracks problems I have done and it schedules when I should retry them, using the SM-2 spaced repetition algorithm.
 
-Currently, two official plugins are available:
+Currently building this out. Not done yet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+TypeScript across the board. Express + Postgres on the backend, React + Vite on the frontend. Backend deploys to Railway, frontend to Vercel.
